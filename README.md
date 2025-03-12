@@ -2,6 +2,8 @@
 
 ## steps to follow to access ghcr.io/openwebui/openwebui:main
 
+If you can't get the image, follow these steps:
+
 Connecting to GitHub Container Registry
 To connect, you need to generate a personal access token on GitHub.
 
