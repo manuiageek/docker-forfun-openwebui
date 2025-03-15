@@ -1,4 +1,15 @@
-# First connect to Github Container Registry
+## CREATE VOLUME in docker
+
+docker volume create open-webui
+
+## RUN CONTAINER
+
+docker compose up -d
+
+Connect on your browser on this url :
+http://localhost:3808
+
+# TROUBLESHOOTING if image is not accessible
 
 ## steps to follow to access ghcr.io/openwebui/openwebui:main
 
@@ -35,17 +46,6 @@ In your terminal, run:
 docker login ghcr.io -u <your_github_username> -p <your_pat>
 
 Replace <your_github_username> and <your_pat> with your actual GitHub username and PAT.
-
-## CREATE VOLUME in docker
-
-docker volume create open-webui
-
-## RUN CONTAINER
-
-docker compose up -d
-
-Connect on your browser on this url :
-http://localhost:3808
 
 # NOTE
 
